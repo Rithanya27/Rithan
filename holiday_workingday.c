@@ -10,19 +10,19 @@ scanf(“%c”,&ch);
 
 switch(ch)
 {
-case 'sunday': printf("holiday”);
+case 'sunday': printf("true”);
 break;
-case 'monday': printf("working day”);
+case 'monday': printf("false”);
 break;
-case 'tuesday': printf("working day”);
+case 'tuesday':  printf("false”);
 break;
-case 'wednesday': printf("working day”);
+case 'wednesday': printf("false”);
 break;
-case 'thursday': printf("working day”);
+case 'thursday': printf("false”);
 break;
-case 'friday': printf("working day”);
+case 'friday': printf("false”);
 break;
-case 'saturday': printf("holiday”);
+case 'saturday': printf("true”);
 break;
 
 }
