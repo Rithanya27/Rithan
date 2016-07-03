@@ -3,15 +3,15 @@
 #include <string.h>
 void main(){
      char str[20],tmp;
-     int i,j;
+     int c;
      clrscr();
      printf("\nEnter a string : ");
      scanf("%s",str);
      printf("\n\nOriginal String     : %s",str);
-     for(i=0;i<strlen(str);i=i+2){
-     tmp = str[i];
-     str[i] = str[i+1];
-     str[i+1] = tmp;
+     for(c=0;c<strlen(str);c=c+2){
+     tmp = str[c];
+     str[c] = str[c+1];
+     str[c+1] = tmp;
      }
      printf("\nAfter Swap String      : %s",str);
      getch();
