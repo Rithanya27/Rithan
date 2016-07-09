@@ -2,9 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 class index
 {
-
-
-public static void main(String args[])throws Exception
+public static void main(String args[])
 {
 int i,j;
 int a[]=new int[5];
