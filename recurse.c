@@ -4,8 +4,8 @@
 void main()
 {
 char name={"TREE"};
-int thickness;
-int branches;
+int t;
+int b;
 char color[];
 int angle;
 printf("enter the thickness of the tree");
@@ -16,9 +16,9 @@ printf("enter the color of the tree");
 scanf("%c,&color of the tree");
 printf("enter the angle of the tree");
 scanf("%d,&angle of the tree");
-if(thickness>23)
+if(t>23)
 {
-if (branches>20)
+if (b>20)
 {
 if(angle<=45)
 {
